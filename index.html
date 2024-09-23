@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca das reliquias da família</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/casa-isolada.jpg" alt="casa da vó">
+            <p>Após 6 anos do desaparecimento da sua vó, você decide ir até a casa dela para procurar coisas que possam fazer você se relembrar a sua infância, já que a sua família não ia lá a muitos anos. Você decide ir primeiro para...</p>
+            <button class="btn-proximo" data-proximo="1"> O sotão</button>
+            <button class="btn-proximo" data-proximo="2">O quarto da velha</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Subindo ao sotão, você se depara com incontáveis caixas. Irá demorar muito tempo para você olhar todas. Você decide...</p>
+            <button class="btn-proximo" data-proximo="3">Procurar nas caixas</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>No quarto de sua avó, você se depara com 2 pontos de interesse. Você decide olhar no...</p>
+            <button class="btn-proximo" data-proximo="5">Criado-mudo</button>
+            <button class="btn-proximo" data-proximo="6">Armário</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No meio das caixas você encontra chaves reservas para o porão. Você se lembra que quase nunca podia ir ao porão e por isso nunca soube oque tinha direito lá.</p>
+            <button class="btn-proximo" data-proximo="7">Ir para o porão</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que o trabalho é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>No criado-mudo você encontra uma antiga chave que sua vó usava para abrir alguma coisa no porão. Você se lembra que quase nunca podia ir ao porão e por isso nunca soube oque tinha direito lá. </p>
+            <button class="btn-proximo" data-proximo="7">Ir para o porão</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você se depara com um armário completamente vazio, possivelmente sua família levou tudo após o sumiço da sua vó.</p>
+            <button class="btn-proximo" data-proximo="5">Voltar e olhar o criado-mudo</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>No porão, a busca por alguma coisa que possa fazer você lembrar o passado se intensifica. Você se depara com um duas portas.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pela porta da esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pela porta da direita</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>A porta da esquerda leva a uma descida ainda mais profunda que parece um tipo de bunker.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o bunker</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>A porta da direita não se abre com a chave que você tem.</p>
+            <button class="btn-proximo" data-proximo="9">Retornar e tentar a outra porta</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img class="final" src="img/vó-cadeira.png" alt="vó na cadeira">
+            <p>Dentro do bunker, você se surpreender com uma figura sentada em uma cadeira de balanço. É a sua vó!!!! Ela olha para você e diz: "Eita meu fio" e em suas mãos ela possui um celular com um gif de bom dia.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
